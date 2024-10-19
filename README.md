@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Medicine Reminder App: AI-Driven Healthcare Management
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+The **Medicine Reminder App** simplifies the process of managing medication schedules by integrating cutting-edge technologies like **React**, **Tailwind CSS**, and **Gemini AI**. This app helps users maintain medication adherence by automating the process of setting reminders based on prescriptions, ensuring users never miss a dose.
 
-In the project directory, you can run:
+## Problem Solved
 
-### `npm start`
+Many users struggle with keeping track of their medication schedules, leading to missed doses and potential health risks. Our app solves this by automating the scheduling of reminders, either by reading prescriptions or through voice input, reducing the chances of human error.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 1. Two Input Methods
+- **Voice Input via Gemini AI**: Users can set reminders hands-free by speaking to the app in natural language.
+- **Manual Input**: Users can manually enter medication details (name, dosage, frequency) and set reminders.
 
-### `npm test`
+### 2. Real-Time Notifications
+- **Buzzing Alarms and Voice Alerts**: Reminders are delivered through audio notifications to ensure the user takes the medication on time.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 3. Prescription Parsing
+- The app reads and parses prescriptions in real-time to identify:
+  - Medicine names
+  - Dosages
+  - Methods of intake (oral, injection, etc.)
+  - Frequency
 
-### `npm run build`
+### 4. Seamless AI Interaction
+- Natural two-way interaction with **Gemini AI** to set reminders, making it user-friendly and eliminating the need for typing.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technology Stack
+- **React Native**: For building the cross-platform mobile app.
+- **Tailwind CSS**: For designing a modern, responsive user interface.
+- **Gemini AI**: To enable voice interaction and automate reminder setting.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## How It Works
+1. **Voice Input**: Users can speak to set reminders, and the app will process the input using Gemini AI.
+2. **Manual Input**: Users can also manually input their medication schedule if preferred.
+3. **Real-Time Alerts**: Users will receive buzzing and voice reminders to take their medications.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/medicine-reminder-app.git
+    ```
+   
+2. Navigate to the project directory:
+    ```bash
+    cd medicine-reminder-app
+    ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Install dependencies using Yarn:
+    ```bash
+    yarn install
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Start the development server:
+    ```bash
+    yarn start
+    ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contributing
+Feel free to submit issues or contribute to the project by creating pull requests. Please follow the code of conduct outlined in the repository.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
