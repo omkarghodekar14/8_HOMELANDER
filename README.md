@@ -21,7 +21,7 @@ Many users struggle with keeping track of their medication schedules, leading to
 - The app reads and parses prescriptions in real-time to identify:
   - Medicine names
   - Dosages
-  - Methods of intake (oral, injection, etc.)
+  - Methods of intake (before or after lunch & dinner)
   - Frequency
 
 ### 4. Seamless AI Interaction
